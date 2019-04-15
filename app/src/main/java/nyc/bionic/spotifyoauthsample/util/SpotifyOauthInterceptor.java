@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-class SpotifyOauthInterceptor implements Interceptor {
+public class SpotifyOauthInterceptor implements Interceptor {
 
   private String token = null;
 
